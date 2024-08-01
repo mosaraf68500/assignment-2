@@ -1,0 +1,70 @@
+body{
+    background-color: gray;
+}
+.container{
+    width: 80%;
+    margin: 4rem auto;
+    padding-left: 3rem;
+    background-color: rgba(0, 0, 0, 0.804);
+}
+
+.footer-title{
+    font-size: 7rem;
+    font-style: italic;
+    font-weight: 900;
+    color:tomato;
+     padding-top: 3rem; 
+    margin: 2rem;
+  
+}
+.footer-discription{
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: darkgray;
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.footer-info{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.footer-info h1{
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.74);
+    font-weight: 800;
+    margin-top: 6rem;
+}
+.footer-info p{
+    font-size:2rem ;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.607);
+}
+.line{
+    width: 90%;
+    margin: 3rem auto;
+    margin-bottom: 5rem;
+    /* margin-right: 2rem; */
+    padding-right: 2rem;
+    padding-left: 2rem;
+    color: gray;
+}
+
+.container h2{
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.763);
+    /* margin-bottom: 3rem; */
+    padding-bottom: 4rem;
+}
+
+@media screen and (max-width:576px) {
+    .footer-info{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer-info p{
+        width: 100%;
+    }
+}
